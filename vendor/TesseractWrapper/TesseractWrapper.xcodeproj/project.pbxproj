@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1BB388D164AF7AF009542EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BB388C164AF7AF009542EC /* Foundation.framework */; };
+		C1BB3892164AF7AF009542EC /* TesseractWrapper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C1BB3891164AF7AF009542EC /* TesseractWrapper.h */; };
+		C1BB38CF164AF824009542EC /* TesseractWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = C1BB389D164AF824009542EC /* TesseractWrapper.mm */; };
+		C1BB38D0164AF824009542EC /* liblept.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BB38CD164AF824009542EC /* liblept.a */; };
+		C1BB38D1164AF825009542EC /* libtesseract_all.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BB38CE164AF824009542EC /* libtesseract_all.a */; };
+		C1BB38D4164AF82F009542EC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BB38D2164AF82F009542EC /* AVFoundation.framework */; };
+		C1BB38D5164AF82F009542EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BB38D3164AF82F009542EC /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1BB3887164AF7AF009542EC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				C1BB3892164AF7AF009542EC /* TesseractWrapper.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C1BB3889164AF7AF009542EC /* libTesseractWrapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTesseractWrapper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BB388C164AF7AF009542EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C1BB3890164AF7AF009542EC /* TesseractWrapper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TesseractWrapper-Prefix.pch"; sourceTree = "<group>"; };
+		C1BB3891164AF7AF009542EC /* TesseractWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TesseractWrapper.h; sourceTree = "<group>"; };
+		C1BB389D164AF824009542EC /* TesseractWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TesseractWrapper.mm; sourceTree = "<group>"; };
+		C1BB38A2164AF824009542EC /* allheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allheaders.h; sourceTree = "<group>"; };
+		C1BB38A3164AF824009542EC /* alltypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alltypes.h; sourceTree = "<group>"; };
+		C1BB38A4164AF824009542EC /* array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array.h; sourceTree = "<group>"; };
+		C1BB38A5164AF824009542EC /* arrayaccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arrayaccess.h; sourceTree = "<group>"; };
+		C1BB38A6164AF824009542EC /* bbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bbuffer.h; sourceTree = "<group>"; };
+		C1BB38A7164AF824009542EC /* bmf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bmf.h; sourceTree = "<group>"; };
+		C1BB38A8164AF824009542EC /* bmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bmp.h; sourceTree = "<group>"; };
+		C1BB38A9164AF824009542EC /* ccbord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccbord.h; sourceTree = "<group>"; };
+		C1BB38AA164AF824009542EC /* dewarp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dewarp.h; sourceTree = "<group>"; };
+		C1BB38AB164AF824009542EC /* endianness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endianness.h; sourceTree = "<group>"; };
+		C1BB38AC164AF824009542EC /* environ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = environ.h; sourceTree = "<group>"; };
+		C1BB38AD164AF824009542EC /* freetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = freetype.h; sourceTree = "<group>"; };
+		C1BB38AE164AF824009542EC /* gplot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gplot.h; sourceTree = "<group>"; };
+		C1BB38AF164AF824009542EC /* heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heap.h; sourceTree = "<group>"; };
+		C1BB38B0164AF824009542EC /* imageio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageio.h; sourceTree = "<group>"; };
+		C1BB38B1164AF824009542EC /* jbclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jbclass.h; sourceTree = "<group>"; };
+		C1BB38B2164AF824009542EC /* leptprotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leptprotos.h; sourceTree = "<group>"; };
+		C1BB38B3164AF824009542EC /* leptwin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leptwin.h; sourceTree = "<group>"; };
+		C1BB38B4164AF824009542EC /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		C1BB38B5164AF824009542EC /* morph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = morph.h; sourceTree = "<group>"; };
+		C1BB38B6164AF824009542EC /* pix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pix.h; sourceTree = "<group>"; };
+		C1BB38B7164AF824009542EC /* ptra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ptra.h; sourceTree = "<group>"; };
+		C1BB38B8164AF824009542EC /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		C1BB38B9164AF824009542EC /* readbarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readbarcode.h; sourceTree = "<group>"; };
+		C1BB38BA164AF824009542EC /* regutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regutils.h; sourceTree = "<group>"; };
+		C1BB38BB164AF824009542EC /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		C1BB38BC164AF824009542EC /* sudoku.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sudoku.h; sourceTree = "<group>"; };
+		C1BB38BD164AF824009542EC /* watershed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = watershed.h; sourceTree = "<group>"; };
+		C1BB38BF164AF824009542EC /* apitypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = apitypes.h; sourceTree = "<group>"; };
+		C1BB38C0164AF824009542EC /* baseapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseapi.h; sourceTree = "<group>"; };
+		C1BB38C1164AF824009542EC /* errcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errcode.h; sourceTree = "<group>"; };
+		C1BB38C2164AF824009542EC /* genericvector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genericvector.h; sourceTree = "<group>"; };
+		C1BB38C3164AF824009542EC /* helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpers.h; sourceTree = "<group>"; };
+		C1BB38C4164AF824009542EC /* host.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = host.h; sourceTree = "<group>"; };
+		C1BB38C5164AF824009542EC /* ndminx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ndminx.h; sourceTree = "<group>"; };
+		C1BB38C6164AF824009542EC /* ocrclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocrclass.h; sourceTree = "<group>"; };
+		C1BB38C7164AF824009542EC /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		C1BB38C8164AF824009542EC /* publictypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = publictypes.h; sourceTree = "<group>"; };
+		C1BB38C9164AF824009542EC /* tesscallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tesscallback.h; sourceTree = "<group>"; };
+		C1BB38CA164AF824009542EC /* thresholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thresholder.h; sourceTree = "<group>"; };
+		C1BB38CB164AF824009542EC /* unichar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unichar.h; sourceTree = "<group>"; };
+		C1BB38CD164AF824009542EC /* liblept.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblept.a; sourceTree = "<group>"; };
+		C1BB38CE164AF824009542EC /* libtesseract_all.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtesseract_all.a; sourceTree = "<group>"; };
+		C1BB38D2164AF82F009542EC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C1BB38D3164AF82F009542EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1BB3886164AF7AF009542EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BB38D4164AF82F009542EC /* AVFoundation.framework in Frameworks */,
+				C1BB38D5164AF82F009542EC /* CoreGraphics.framework in Frameworks */,
+				C1BB388D164AF7AF009542EC /* Foundation.framework in Frameworks */,
+				C1BB38D0164AF824009542EC /* liblept.a in Frameworks */,
+				C1BB38D1164AF825009542EC /* libtesseract_all.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1BB387E164AF7AF009542EC = {
+			isa = PBXGroup;
+			children = (
+				C1BB38D2164AF82F009542EC /* AVFoundation.framework */,
+				C1BB38D3164AF82F009542EC /* CoreGraphics.framework */,
+				C1BB388E164AF7AF009542EC /* TesseractWrapper */,
+				C1BB388B164AF7AF009542EC /* Frameworks */,
+				C1BB388A164AF7AF009542EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1BB388A164AF7AF009542EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1BB3889164AF7AF009542EC /* libTesseractWrapper.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1BB388B164AF7AF009542EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1BB388C164AF7AF009542EC /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1BB388E164AF7AF009542EC /* TesseractWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				C1BB389D164AF824009542EC /* TesseractWrapper.mm */,
+				C1BB389E164AF824009542EC /* build_dependencies */,
+				C1BB3891164AF7AF009542EC /* TesseractWrapper.h */,
+				C1BB388F164AF7AF009542EC /* Supporting Files */,
+			);
+			path = TesseractWrapper;
+			sourceTree = "<group>";
+		};
+		C1BB388F164AF7AF009542EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1BB3890164AF7AF009542EC /* TesseractWrapper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1BB389E164AF824009542EC /* build_dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				C1BB389F164AF824009542EC /* dependencies */,
+			);
+			path = build_dependencies;
+			sourceTree = "<group>";
+		};
+		C1BB389F164AF824009542EC /* dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				C1BB38A0164AF824009542EC /* include */,
+				C1BB38CC164AF824009542EC /* lib */,
+			);
+			path = dependencies;
+			sourceTree = "<group>";
+		};
+		C1BB38A0164AF824009542EC /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C1BB38A1164AF824009542EC /* leptonica */,
+				C1BB38BE164AF824009542EC /* tesseract */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		C1BB38A1164AF824009542EC /* leptonica */ = {
+			isa = PBXGroup;
+			children = (
+				C1BB38A2164AF824009542EC /* allheaders.h */,
+				C1BB38A3164AF824009542EC /* alltypes.h */,
+				C1BB38A4164AF824009542EC /* array.h */,
+				C1BB38A5164AF824009542EC /* arrayaccess.h */,
+				C1BB38A6164AF824009542EC /* bbuffer.h */,
+				C1BB38A7164AF824009542EC /* bmf.h */,
+				C1BB38A8164AF824009542EC /* bmp.h */,
+				C1BB38A9164AF824009542EC /* ccbord.h */,
+				C1BB38AA164AF824009542EC /* dewarp.h */,
+				C1BB38AB164AF824009542EC /* endianness.h */,
+				C1BB38AC164AF824009542EC /* environ.h */,
+				C1BB38AD164AF824009542EC /* freetype.h */,
+				C1BB38AE164AF824009542EC /* gplot.h */,
+				C1BB38AF164AF824009542EC /* heap.h */,
+				C1BB38B0164AF824009542EC /* imageio.h */,
+				C1BB38B1164AF824009542EC /* jbclass.h */,
+				C1BB38B2164AF824009542EC /* leptprotos.h */,
+				C1BB38B3164AF824009542EC /* leptwin.h */,
+				C1BB38B4164AF824009542EC /* list.h */,
+				C1BB38B5164AF824009542EC /* morph.h */,
+				C1BB38B6164AF824009542EC /* pix.h */,
+				C1BB38B7164AF824009542EC /* ptra.h */,
+				C1BB38B8164AF824009542EC /* queue.h */,
+				C1BB38B9164AF824009542EC /* readbarcode.h */,
+				C1BB38BA164AF824009542EC /* regutils.h */,
+				C1BB38BB164AF824009542EC /* stack.h */,
+				C1BB38BC164AF824009542EC /* sudoku.h */,
+				C1BB38BD164AF824009542EC /* watershed.h */,
+			);
+			path = leptonica;
+			sourceTree = "<group>";
+		};
+		C1BB38BE164AF824009542EC /* tesseract */ = {
+			isa = PBXGroup;
+			children = (
+				C1BB38BF164AF824009542EC /* apitypes.h */,
+				C1BB38C0164AF824009542EC /* baseapi.h */,
+				C1BB38C1164AF824009542EC /* errcode.h */,
+				C1BB38C2164AF824009542EC /* genericvector.h */,
+				C1BB38C3164AF824009542EC /* helpers.h */,
+				C1BB38C4164AF824009542EC /* host.h */,
+				C1BB38C5164AF824009542EC /* ndminx.h */,
+				C1BB38C6164AF824009542EC /* ocrclass.h */,
+				C1BB38C7164AF824009542EC /* platform.h */,
+				C1BB38C8164AF824009542EC /* publictypes.h */,
+				C1BB38C9164AF824009542EC /* tesscallback.h */,
+				C1BB38CA164AF824009542EC /* thresholder.h */,
+				C1BB38CB164AF824009542EC /* unichar.h */,
+			);
+			path = tesseract;
+			sourceTree = "<group>";
+		};
+		C1BB38CC164AF824009542EC /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				C1BB38CD164AF824009542EC /* liblept.a */,
+				C1BB38CE164AF824009542EC /* libtesseract_all.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1BB3888164AF7AF009542EC /* TesseractWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1BB3897164AF7AF009542EC /* Build configuration list for PBXNativeTarget "TesseractWrapper" */;
+			buildPhases = (
+				C1BB3885164AF7AF009542EC /* Sources */,
+				C1BB3886164AF7AF009542EC /* Frameworks */,
+				C1BB3887164AF7AF009542EC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TesseractWrapper;
+			productName = TesseractWrapper;
+			productReference = C1BB3889164AF7AF009542EC /* libTesseractWrapper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1BB3880164AF7AF009542EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = com.ferdev;
+			};
+			buildConfigurationList = C1BB3883164AF7AF009542EC /* Build configuration list for PBXProject "TesseractWrapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C1BB387E164AF7AF009542EC;
+			productRefGroup = C1BB388A164AF7AF009542EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1BB3888164AF7AF009542EC /* TesseractWrapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1BB3885164AF7AF009542EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BB38CF164AF824009542EC /* TesseractWrapper.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C1BB3895164AF7AF009542EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1BB3896164AF7AF009542EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1BB3898164AF7AF009542EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TesseractWrapper.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TesseractWrapper/TesseractWrapper-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TesseractWrapper/build_dependencies/dependencies/lib\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C1BB3899164AF7AF009542EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TesseractWrapper.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TesseractWrapper/TesseractWrapper-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TesseractWrapper/build_dependencies/dependencies/lib\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1BB3883164AF7AF009542EC /* Build configuration list for PBXProject "TesseractWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BB3895164AF7AF009542EC /* Debug */,
+				C1BB3896164AF7AF009542EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1BB3897164AF7AF009542EC /* Build configuration list for PBXNativeTarget "TesseractWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BB3898164AF7AF009542EC /* Debug */,
+				C1BB3899164AF7AF009542EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1BB3880164AF7AF009542EC /* Project object */;
+}
