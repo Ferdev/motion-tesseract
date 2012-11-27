@@ -1,9 +1,21 @@
 describe "Application 'motion-tesseract'" do
   before do
-    @app = UIApplication.sharedApplication
+    @ocr = TesseractWrapper.alloc.init
   end
 
-  it "has one window" do
-    @app.windows.size.should == 1
+  it "can read the text in the sample image" do
+    image_with_text = UIImage.imageNamed('phototest.gif').CGImage
+
+    @ocr.scan(image_with_text).should == <<-EOF.gsub(/^      /, '')
+      This is a lot of 12 point text to test the
+      ocr code and see if it works on all types
+      of file format.
+      The quick brown dog jumped over the
+      lazy fox. The quick brown dog jumped
+      over the lazy fox. The quick brown dog
+      jumped over the lazy fox. The quick
+      brown dog jumped over the lazy fox.
+
+    EOF
   end
 end
